@@ -1,12 +1,13 @@
 <?php
-$itemCode = 0;
-$description = ""; 
-$unitPrice = 0;
-$quantityOfProduct = 0;
+$itemCode = "1010";
+$description = "Processor"; 
+$unitPrice = -10000.99;
+$quantityOfProduct = -20;
 $totalAmountOfProduct = 0;
 $VATamount = 0;
 $NBTamount = 0;
 $netAmount = 0;
+
 
 function calculateTotalAmountOfProduct($unitPrice, $quantityOfProduct) {
     $totalAmountOfProduct = $unitPrice * $quantityOfProduct;
