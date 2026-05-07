@@ -1,23 +1,23 @@
 <?php
 // Data
-$range1Start = 1;
-$range1End = 10; 
-$range2Start = 11;
-$range2End = 20;
-$range3Start = 21;
-$range3End = 30;
-$range4Start = 31;
-$range4End = 40;
-$range5Start = 41;
-$range5End = 50;
+$range1Start = 0;
+$range1End = 0; 
+$range2Start = 0;
+$range2End = 0;
+$range3Start = 0;
+$range3End = 0;
+$range4Start = 0;
+$range4End = 0;
+$range5Start = 0;
+$range5End = 0;
 
-$frequency1 = 2; //(f1) 
-$frequency2 = 7; //(f2) 
-$frequency3 = 10; //(f3)
-$frequency4 = 3; //(f4)
-$frequency5 = 1; //(f5)
+$frequency1 = 0; //(f1) 
+$frequency2 = 0; //(f2) 
+$frequency3 = 0; //(f3)
+$frequency4 = 0; //(f4)
+$frequency5 = 0; //(f5)
 
-$C = 22.89; //μ value (C)
+$C = 0; //μ value (C)
 
 //inforamation
 $range1DeviationValue = 0; // (D1)
@@ -27,6 +27,7 @@ $range4DeviationValue = 0; // (D4)
 $range5DeviationValue = 0; // (D5)
 
 $totalDeviationValue = 0;
+$totalFrequency = 0;
 $standardDeviation = 0;
 
 //function name : Calculate deviation value
