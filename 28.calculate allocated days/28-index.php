@@ -1,6 +1,6 @@
 <?php
 //data
-$regNumber = "a";
+$regNumber = "1000";
 //information
 $allocatedDay = "0";
 //calculation 01    
