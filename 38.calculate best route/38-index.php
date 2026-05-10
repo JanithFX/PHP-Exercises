@@ -1,13 +1,13 @@
 <?php
 //data
 $timeA = 2; // Time for Route A in hours
-$costA = 50; // Cost for Route A in LKR
-$timeB = 3; // Time for Route B in hours
-$costB = 30; // Cost for Route B in LKR
+$costA = 0; // Cost for Route A in LKR
+$timeB = 6; // Time for Route B in hours
+$costB = 25; // Cost for Route B in LKR
 
 // Calculate scores
-$scoreA = $timeA + $costA; // Score for Route A
-$scoreB = $timeB + $costB; // Score for Route B
+$scoreA = $timeA * $costA; // Score for Route A
+$scoreB = $timeB * $costB; // Score for Route B
 
 // Determine the best route
 if ($scoreA < $scoreB) {

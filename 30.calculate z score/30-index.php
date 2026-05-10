@@ -1,8 +1,8 @@
 <?php
 //data
-$mark = 0;
-$mean = 0;
-$standardDeviation  = 0;
+$mark = 70;
+$mean = 60;
+$standardDeviation  = 00;
 //information
 $zScore = 0;
 //calculation 01

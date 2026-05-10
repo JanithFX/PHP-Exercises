@@ -1,6 +1,6 @@
 <?php
 //data
-$postName = "Lecturer";
+$postName = "Guest";
 $basicSalary  = 0;
 $rate = 0;
 

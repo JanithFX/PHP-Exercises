@@ -1,9 +1,9 @@
 <?php
 //data  
-$Point1X = 0;
-$Point1Y = 0;
-$Point2X = 0;
-$Point2Y = 0;
+$Point1X = 1;
+$Point1Y = 1;
+$Point2X = 1;
+$Point2Y = 1;
 //information
 $distance = 0;
 

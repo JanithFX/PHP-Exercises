@@ -1,8 +1,8 @@
 <?php
 //data
-$waterVolume = 300; // in ml
-$papayaWeight = 80; // in grams
-$sugarSpoons = 4; // number of sugar spoons
+$waterVolume = 10; // in ml
+$papayaWeight = 0; // in grams
+$sugarSpoons = 0; // number of sugar spoons
 //information
 $waterCost = 0;
 $papayaCost = 0;
@@ -23,9 +23,9 @@ if ($sugarSpoons >= 2 && $sugarSpoons <= 6) {
 // Calculate Total Bill
 $totalBill = $waterCost + $papayaCost + $sugarCost;
 // Display Detailed Bill
-echo "Detailed Bill:<br>";
-echo "Fix Charge for Cold Water: " . $waterCost . " LKR<br>";
-echo "Papaya Cost: " . $papayaCost . " LKR<br>";
-echo "Sugar Cost: " . $sugarCost . " LKR<br>";
-echo "Total Bill: " . $totalBill . " LKR<br>";
+echo "Detailed Bill:</br>";
+echo "Fix Charge for Cold Water: " . $waterCost . " LKR</br>";
+echo "Papaya Cost: " . $papayaCost . " LKR</br>";
+echo "Sugar Cost: " . $sugarCost . " LKR</br>";
+echo "Total Bill: " . $totalBill . " LKR</br>";
 ?>

@@ -1,13 +1,18 @@
 <?php
 //data
-$requestedHallNumber = "0"; // Get from user input
-$requestedSlot = "0"; // Get from user input
-$lecturerName = "0"; // Get from user input
+$requestedHallNumber = "1"; // Get from user input
+$requestedSlot = "9-11 AM"; // Get from user input
+$requestedlecturerName = "Dr. Perera"; // Get from user input
 
-if (empty($requestedHallNumber) && empty($requestedSlot)) {
-    echo "Error: Slot already occupied";
-} else {
+$hallNumber="";
+$slot="";
+$lecturerName="";
 
+if (empty($hallNumber) && empty($slot)) {
+    $hallNumber = $requestedHallNumber;
+    $slotNumber = $requestedSlot;
     echo "Success: " . $lecturerName . " allocated to Hall Number " . $requestedHallNumber . " and time slot " . $requestedSlot;
+} else {
+    echo "Error: Slot already occupied";
 }
 ?>

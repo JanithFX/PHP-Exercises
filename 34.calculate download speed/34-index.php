@@ -1,8 +1,8 @@
 <?php
 //data
-$totalFileSize = 100; // in MB
-$downloadedSize = 60; // in MB
-$downloadSpeed = 5; // in MB/s
+$totalFileSize = 50; // in MB
+$downloadedSize = 0; // in MB
+$downloadSpeed = 0; // in MB/s
 //information
 $remainingTime = 0;
 

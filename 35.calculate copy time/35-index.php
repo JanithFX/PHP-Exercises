@@ -1,8 +1,8 @@
 <?php
 //data
-$totalBytes = 1000; // in bytes
-$copiedBytes = 600; // in bytes
-$copySpeed = 100; // in bytes/second
+$totalBytes = 600; // in bytes
+$copiedBytes = 100; // in bytes
+$copySpeed = 0; // in bytes/second
 
 //information
 $remainingTime = 0;

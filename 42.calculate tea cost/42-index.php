@@ -1,8 +1,8 @@
 <?php
 //data
-$hotWaterVolume = 200; // in ml
-$teaLeavesWeight = 2; // in grams
-$sugarSpoons = 2; // number of sugar spoons
+$hotWaterVolume = 500; // in ml
+$teaLeavesWeight = 0; // in grams
+$sugarSpoons = 0; // number of sugar spoons
 //information
 $hotWaterCost = 0;
 $teaLeavesCost = 0;

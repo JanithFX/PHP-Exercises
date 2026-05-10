@@ -1,18 +1,15 @@
 <?php
 //data
+$amount = 0;
+$choice = 3;
+//informaion
 $accountBalance = 5000;
-$choice = 0;
-//information
-$accountBalance = 0;
-
 
 if ($choice == 1) {
     // Get the amount to deposit
-    $amount = 0; 
     $accountBalance = depositCash($accountBalance, $amount);
 } elseif ($choice == 2) {
     // Get the amount to withdraw
-    $amount = 0; 
     $accountBalance = withdrawCash($accountBalance, $amount);
 } elseif ($choice == 3) {
     checkBalance($accountBalance);
@@ -29,7 +26,7 @@ if ($choice == 1) {
 //version: 1.0
 function depositCash($balance, $amount) {
     $balance = $balance + $amount;
-    echo "Deposit Successful.";
+    echo "Deposit Successful.</br>Account Balance : " . $balance . " LKR";
     return $balance;
 }
 // function name: withdrawCash
@@ -43,7 +40,7 @@ function withdrawCash($balance, $amount) {
         return $balance;
     } else {
         $balance = $balance - $amount;
-        echo "Withdrawal Successful.";
+        echo "Withdrawal Successful.</br>Account Balance : " . $balance . " LKR";
         return $balance;
     }
 }

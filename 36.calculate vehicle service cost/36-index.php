@@ -1,8 +1,8 @@
 <?php
 //data
-$customerLaborCost = 500; // in Rs.
-$customerPartsCost = 300; // in Rs.
-$taxAmount = 50; // in Rs.
+$customerLaborCost = 0; 
+$customerPartsCost = 0;
+$taxAmount = 0;
 
 //information
 $totalCharge = 0;

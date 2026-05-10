@@ -1,9 +1,9 @@
 <?php
 //data
-$Radius1 = 0;
-$Angle1 = 0;
-$Radius2 = 0;
-$Angle2 = 0;
+$Radius1 = 5;
+$Angle1 = 15;
+$Radius2 = 5;
+$Angle2 = 15;
 //information
 $distance = 0;
 
